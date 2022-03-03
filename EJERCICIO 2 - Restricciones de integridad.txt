@@ -1,0 +1,8 @@
+-- Restricciones de integridad, que no pueden ser implementadas con PK, FK, Check, Unique, NOT NULL. 
+
+-- IP (EqpIP), la cual está formado por 4 secuencias de 3 dígitos, cada secuencia puede tomar valores entre 0 y 255, y están separadas por un punto, ejemplo 192.168.045.123
+
+-- Los nombres de los equipos deben tener por prefijo: WKS si son Terminales de Trabajo
+						       SRV si son Servidores
+						       IMP si son Impresoras
+						       TBL si son Tablets
